@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { formatDate } from '../../Services/DateHelper'
-import placeHolderImage from '../../Assets/profile.png'
+import placeHolderImage from '../../assets/profile.png'
 import { Button } from '@heroui/react'
 import { AuthContext } from '../../Context/AuthContext'
 
