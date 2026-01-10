@@ -83,7 +83,8 @@ export default function ProfilePage() {
   // If data is still loading, show loading skeleton
   // If data is still loading, show loading skeleton
   if (loading) {
-    return <Card className="my-4 space-y-5 p-4" radius="lg">
+    return <div className="profileLoading">
+      <Card className="my-4 space-y-5 p-4" radius="lg">
 
         {/* Skeleton for profile image */}
         <div className="w-full flex items-center gap-3">
@@ -112,6 +113,7 @@ export default function ProfilePage() {
             
             </div>
     </Card>
+    </div>
   }
 
   // If no user data available, show error message

@@ -8,6 +8,6 @@ body {
   background: rgba(0, 255, 255, 0.448);
   min-height: 100vh;
 }
-.Feedpage , .SinglePostPage , .ProfilePage , .SinglePostPage {
+.Feedpage , .SinglePostPage , .ProfilePage , .SinglePostPage , .profileLoading {
   min-height: 100vh;
 }

@@ -23,7 +23,7 @@ export default function MyNavbar() {
     <Navbar>
       <NavbarBrand> <Link to={'/'} className="font-bold text-inherit">Social-App</Link> </NavbarBrand>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className="flex gap-4" justify="center">
 
         { isLogged ?
         <>
